@@ -1,0 +1,53 @@
+
+body{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.parent{
+    background-color: rgb(102, 122, 141);
+    max-width: 300px;
+    overflow: hidden;
+    padding: 25px;
+    justify-content: center;
+    border-radius: 14px;
+    margin-top: 50px;
+}
+.button
+{
+    display: grid;
+    grid-template-columns: repeat(4,0fr);
+    gap: 10px;
+    background-color: rgb(102, 122, 141)    ;
+    padding: 18px;
+    border-radius: 20px;
+  
+    
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: hsl(162, 67%, 57%);
+    border: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#display{
+    width: 300px;
+    height: 40px;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.operator
+{
+    background-color: rgb(228, 185, 154);
+}
+.operatorequal{
+    background-color: beige;
+}
